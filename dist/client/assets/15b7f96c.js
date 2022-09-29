@@ -1,0 +1,2 @@
+import{r as s}from"./index.695478b2.js";import{b as o}from"./e87bd688.js";function u(t){var r;if(t.type)return t.type;let e=(r=t.as)!=null?r:"button";if(typeof e=="string"&&e.toLowerCase()==="button")return"button"}function p(t,r){let[e,n]=s.exports.useState(()=>u(t));return o(()=>{n(u(t))},[t.type,t.as]),o(()=>{e||!r.current||r.current instanceof HTMLButtonElement&&!r.current.hasAttribute("type")&&n("button")},[e,r]),e}export{p as s};
+//# sourceMappingURL=15b7f96c.js.map
