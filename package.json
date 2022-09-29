@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "shopify hydrogen dev",
-    "start": "shopify hydrogen build",
+    "build": "shopify hydrogen build",
+    "start": "shopify hydrogen preview",
     "preview": "shopify hydrogen preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint-ts": "tsc --noEmit",
