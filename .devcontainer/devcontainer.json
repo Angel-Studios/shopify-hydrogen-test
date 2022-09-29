@@ -8,7 +8,7 @@
     "bradlc.vscode-tailwindcss",
     "esbenp.prettier-vscode"
   ],
-  "forwardPorts": [3000],
+  "forwardPorts": [5000],
   "postCreateCommand": "yarn install",
   "postStartCommand": "yarn dev",
   "remoteUser": "node",
